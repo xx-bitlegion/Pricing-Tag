@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(0, 157, 255, 0.854);
+}
+
+main {
+    background-color: rgba(0, 157, 255, 0.854);
+    border-radius: 15%;
+    min-height: 100vh;
+    margin-left: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+}
+
+h1 {
+    color: #888;
+}
+
+h2 {
+    font-size: 4rem;
+    color: #016ff9;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #016ff9;
+    border: 0.1rem solid rgba(90, 206, 255, 0.208);
+    border-left: 0rem;
+    border-right: 0rem;
+    padding: 1rem;
+}
+
+button {
+    color: #016ff9;
+}
+
+img {
+    width: 80%;
+}
+
+div {
+    background-color: white;
+    border: 0.1rem solid rgba(90, 206, 255, 0.208);
+    min-height: 80vh;
+    max-width: 60vh;
+    border-bottom: none;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 80%;
+}
+
+.first button {
+    padding: 1rem 2rem;
+    border-radius: 20%;
+    border-color: #0171f950;
+    background-color: white;
+    transition: 0.5s cubic-bezier(0.1, 0.7, 0.8, 0.1);
+}
+
+.first button:hover {
+    font-size: 1.75rem;
+    box-shadow: 0.3rem 0.4rem grey;
+    background-color: #95daff49;
+}
+
+.second button {
+    padding: 1rem 2rem;
+    border-radius: 20%;
+    border-color: #0171f950;
+    background-color: white;
+    transition: 0.5s cubic-bezier(0.1, 0.7, 0.8, 0.1);
+}
+
+.second button:hover {
+    font-size: 1.75rem;
+    box-shadow: 0.3rem 0.4rem grey;
+    background-color: #95daff49;
+}
+
+.third button {
+    padding: 1rem 2rem;
+    border-radius: 20%;
+    border-color: #0171f950;
+    background-color: white;
+    transition: 0.5s cubic-bezier(0.1, 0.7, 0.8, 0.1);
+}
+
+.third button:hover {
+    font-size: 1.75rem;
+    box-shadow: 0.3rem 0.4rem grey;
+    background-color: #95daff49;
+}
